@@ -3,6 +3,8 @@
 <img width="1604" height="1121" alt="image" src="https://github.com/user-attachments/assets/2b395967-86f7-4893-87cd-30eef8937601" />
 
 
+
+
 ## Features
 - Native, lightweight (~1 MB) & Free
 - Token highlighting
@@ -40,6 +42,28 @@
 
 
 ### Lenses
+
+  Lenses (smart tooltips) can execute logic for the provided token. The lense beow calls external service to get vendor based on the MAC address:
+
+  <img width="277" height="116" alt="image" src="https://github.com/user-attachments/assets/12266bf0-4740-44f3-83af-33bf75cd1871" />
+
+  Regex:
+  ```
+  ([0-9a-fA-F]{2}[:-]){5}([0-9a-fA-F]{2})
+  ```
+  
+  Code:
+  ```
+  let requestOptions = {
+      method: "GET"
+  };
+  
+  let responseText = fetchSync(`https://api.macvendors.com/` + match, requestOptions);
+  
+  return responseText;
+  ```
+
+#### More Examples
 
 - convert UTC to local time
   
