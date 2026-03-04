@@ -60,7 +60,8 @@
   let requestOptions = {
       method: "GET"
   };
-  
+
+  // 'fetchSync' and 'match' are provided by Essence app to make a call for the given token
   let responseText = fetchSync(`https://api.macvendors.com/` + match, requestOptions);
   
   return responseText;
@@ -91,7 +92,7 @@
       }
   };
 
-  // 'fetchSync' is provided by Essence app to make a call
+  // 'fetchSync' and 'match' are provided by Essence app to make a call for the given token
   let responseText = fetchSync(url, requestOptions);
   
   // Parse the JSON string
