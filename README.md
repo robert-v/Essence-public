@@ -6,7 +6,7 @@
 
 
 ## Features
-- Native, lightweight (~1 MB) & Free
+- Native, lightweight (~3 MB) & Free
 - Token highlighting
 - Minimap
   - gutter
@@ -20,7 +20,7 @@
 
 ## Installation
 
-1. Download dmg archive 
+1. Download dmg archive (from releases on the right side of this page)
 2. Mount the dmg and move .app file to /Applications
 3. Run the app
 
