@@ -26,7 +26,10 @@
 
 ## Examples
 
-### Tokens
+### Token rules
+  Token rules specify which parts of the text will be highlighted, whether they will be visible in minimap and shown in the issue panel.
+
+  #### Examples
 
 - regex to extract ERROR, SEVERE or FATAL words:
 
@@ -43,7 +46,7 @@
 
 ### Lenses
 
-  Lenses (smart tooltips) can execute logic for the provided token. The lense beow calls external service to get vendor based on the MAC address:
+  Lenses (smart tooltips) can execute logic for the provided token. The lense beow calls external service to get vendor name based on the MAC address:
 
   <img width="277" height="116" alt="image" src="https://github.com/user-attachments/assets/12266bf0-4740-44f3-83af-33bf75cd1871" />
 
