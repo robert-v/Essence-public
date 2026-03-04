@@ -26,6 +26,9 @@
 
 ## Examples
 
+### Regex format
+The tool works with Apple's NSRegularExpression which is functionally identical to PCRE (Perl Compatible Regular Expressions) for 99% of common use cases. To test your regex, use site like [regex101.com](https://regex101.com) and set flavor to PCRE2 or Python. 
+
 ### Token rules
   Token rules specify which parts of the text will be highlighted, whether they will be visible in minimap and shown in the issue panel.
 
