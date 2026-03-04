@@ -57,10 +57,11 @@
       method: "GET",
       headers: {
           "Accept": "application/json",
-          "Authorization": "Basic BASE64 encoded creds" 
+          "Authorization": "Basic <BASE64 encoded creds>" 
       }
   };
-  
+
+  // 'fetchSync' is provided by Essence app to make a call
   let responseText = fetchSync(url, requestOptions);
   
   // Parse the JSON string
