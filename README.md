@@ -3,7 +3,7 @@
 <img width="1604" height="1121" alt="image" src="https://github.com/user-attachments/assets/2b395967-86f7-4893-87cd-30eef8937601" />
 
 
-
+macOS 14+, universal .app in .dmg archive
 
 ## Features
 - Native, lightweight (~3 MB) & Free
