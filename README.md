@@ -1,5 +1,8 @@
 # Essence - minimal log viewer for macOS
 
+<img width="1604" height="1121" alt="image" src="https://github.com/user-attachments/assets/2b395967-86f7-4893-87cd-30eef8937601" />
+
+
 ## Features
 - Native & Free
 - Token highlighting
