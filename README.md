@@ -83,6 +83,8 @@ The tool works with Apple's NSRegularExpression which is functionally identical 
     return date.toLocaleString();
     ```
 - call external service
+  - Please be aware that you are responsible for what data you send to external services.
+    
 
   ```
   let url = "https://xyz.com/rest/api/";
