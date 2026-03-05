@@ -3,7 +3,7 @@
 <img width="1604" height="1121" alt="image" src="https://github.com/user-attachments/assets/2b395967-86f7-4893-87cd-30eef8937601" />
 
 
-macOS 14+, universal .app in .dmg archive
+macOS 14+, universal .app in .dmg archive, notarized
 
 ## Features
 - Native, lightweight (~3 MB) & Free
@@ -24,7 +24,12 @@ macOS 14+, universal .app in .dmg archive
 2. Mount the dmg and move .app file to /Applications
 3. Run the app
 
-## Examples
+## My other tools
+[ProcessSpy - Advanced process monitor for Mac](https://process-spy.app)
+
+[Restretto - Minimal REST client for Mac](https://restretto.app)
+
+## Docs
 
 ### Regex format
 The tool works with Apple's NSRegularExpression which is functionally identical to PCRE (Perl Compatible Regular Expressions) for 99% of common use cases. To test your regex, use site like [regex101.com](https://regex101.com) and set flavor to PCRE2 or Python. 
