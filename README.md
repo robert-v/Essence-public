@@ -19,6 +19,7 @@ notarized, sandboxed, entitlements: outgoing connections (for lenses 'fetchSync'
   - call external system to get user name from user id
   - etc.
 - Issue panel with filtering
+- Import/export lenses and profiles to yaml
 
 ## Installation
 
