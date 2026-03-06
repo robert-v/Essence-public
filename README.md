@@ -3,8 +3,9 @@
 <img width="1604" height="1121" alt="image" src="https://github.com/user-attachments/assets/2b395967-86f7-4893-87cd-30eef8937601" />
 
 
-macOS 14+, universal .app in .dmg archive, notarized, 
-sandboxed, entitlements: outgoing connections (for lenses 'fetchSync'), user selected file read/write for yaml import/export
+macOS 14+, universal .app in .dmg archive
+
+notarized, sandboxed, entitlements: outgoing connections (for lenses 'fetchSync'), user selected file read/write for yaml import/export
 
 ## Features
 - Native, lightweight (~3 MB) & Free
