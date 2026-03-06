@@ -30,11 +30,6 @@ notarized, sandboxed, entitlements: outgoing connections (for lenses 'fetchSync'
 
 Update to a new version: simply grab the newest dmg from Releases and replace your existing .app file in /Applications folder. Your existing profiles and lenses will be preserved.
 
-## My other tools
-[ProcessSpy - Advanced process monitor for Mac](https://process-spy.app)
-
-[Restretto - Minimal REST client for Mac](https://restretto.app)
-
 ## Docs
 
 ### Regex format
@@ -117,7 +112,15 @@ The tool works with Apple's NSRegularExpression which is functionally identical 
   //parsing logic
   
   return 'something'
-
   ```
+
+## My other tools for Mac
+  
+[ProcessSpy - Advanced process monitor for Mac](https://process-spy.app)
+
+[Restretto - Minimal REST client for Mac](https://restretto.app)
+
+
+  
 
 
