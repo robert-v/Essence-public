@@ -8,7 +8,7 @@ macOS 14+, universal .app in .dmg archive
 notarized, sandboxed, entitlements: outgoing connections (for lenses 'fetchSync'), user selected file read/write for yaml import/export
 
 ## Features
-- Native, lightweight (~3 MB) & Free
+- Native, lightweight (~5 MB) & Free
 - Token highlighting
 - Minimap
   - gutter
