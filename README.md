@@ -55,11 +55,20 @@ The tool works with Apple's NSRegularExpression which is functionally identical 
 
 ### Lenses
 
-  Lenses (smart tooltips) can execute logic for the provided token. The lense below calls external service to get vendor name based on the MAC address:
+  Lenses (smart tooltips) can execute logic (defined in Javascript) for the provided token.
+  
+  Following items are injected into the JS context:
+  - match - the token the lens is being executed for
+  - fetchSync - function for making http requests, takes request options object with fields:
+      - method - HTTP method, e.g. "GET"
+      - headers - key/value pairs
+  
+  
+  The lense below calls external service to get vendor name based on the MAC address:
 
   <img width="277" height="116" alt="image" src="https://github.com/user-attachments/assets/12266bf0-4740-44f3-83af-33bf75cd1871" />
 
-  Regex:
+  Regex for token:
   ```
   ([0-9a-fA-F]{2}[:-]){5}([0-9a-fA-F]{2})
   ```
