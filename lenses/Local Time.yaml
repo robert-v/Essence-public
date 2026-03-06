@@ -1,6 +1,10 @@
 type: EssenceLens
-name: Local Time
-regexPattern: \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}[+-]\d{4}
-jsCode: "let date = new Date(match.replace(',', '.')); // Adjusting string to standard
-  JS format\nif (isNaN(date.getTime())) {\n    return \"Parsing date...\";\n}\n//
-  Return local time string\nreturn date.toLocaleString(); "
+name: "Local Time"
+regexPattern: "\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2},\\d{3}[+-]\\d{4}"
+jsCode: |-
+  let date = new Date(match.replace(',', '.')); // Adjusting string to standard JS format
+  if (isNaN(date.getTime())) {
+      return "Parsing date...";
+  }
+  // Return local time string
+  return date.toLocaleString(); 

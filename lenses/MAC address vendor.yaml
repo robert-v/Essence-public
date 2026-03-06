@@ -1,7 +1,13 @@
 type: EssenceLens
-name: MAC address vendor
-regexPattern: ([0-9a-fA-F]{2}[:-]){5}([0-9a-fA-F]{2})
-jsCode: "// Since network requests take time, we return a Promise\nlet requestOptions
-  = {\n    method: \"GET\"\n};\n\n// Execute the request using our injected Swift
-  function\nlet responseText = fetchSync(`https://api.macvendors.com/` + match, requestOptions);\n\nreturn
-  responseText;"
+name: "MAC address vendor"
+regexPattern: "([0-9a-fA-F]{2}[:-]){5}([0-9a-fA-F]{2})"
+jsCode: |-
+  // Since network requests take time, we return a Promise
+  let requestOptions = {
+      method: "GET"
+  };
+  
+  // Execute the request using our injected Swift function
+  let responseText = fetchSync(`https://api.macvendors.com/` + match, requestOptions);
+  
+  return responseText;
