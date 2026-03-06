@@ -20,6 +20,7 @@ notarized, sandboxed, entitlements: outgoing connections (for lenses 'fetchSync'
   - etc.
 - Issue panel with filtering
 - Import/export lenses and profiles to yaml
+   - Feel free to contribute your own profiles and lenses!
 
 ## Installation
 
