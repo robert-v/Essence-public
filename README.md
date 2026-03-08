@@ -124,7 +124,7 @@ The tool works with Apple's NSRegularExpression which is functionally identical 
   return 'something'
   ```
 
-## My other tools for Mac
+## Explore My macOS Apps
   
 [ProcessSpy - Advanced process monitor for Mac](https://process-spy.app)
 
