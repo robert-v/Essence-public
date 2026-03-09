@@ -36,7 +36,7 @@ Update to a new version: simply grab the newest dmg from Releases and replace yo
 
 [Restretto - Minimal REST client for Mac](https://restretto.app)
 
-[Mutate - inline text tranformation for Mac]([https://github.com](https://github.com/robert-v/Mutate-public)
+[Mutate - inline text tranformation for Mac](https://github.com/robert-v/Mutate-public)
 
 ## Docs
 
